@@ -1,0 +1,15 @@
+{
+  "name": "npm_darslari",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarvar Murodullayev <sarvar9417@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.13.3",
+    "underscore": "^1.13.1"
+  }
+}
