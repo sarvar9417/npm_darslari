@@ -4,12 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "Sarvar Murodullayev <sarvar9417@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.1",
     "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
     "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.0"
   }
 }
